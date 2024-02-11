@@ -16,6 +16,8 @@ function pageTransitions() {
 
 pageTransitions();
 
+
+
 var typed = new Typed('.text',{
   strings: ["Frontend developer",
             "UI/UX Designer",

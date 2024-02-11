@@ -24,10 +24,10 @@ a{
 
 
 section{
-    min-height: 100vh;
+    height: max-content;
     width: 100%;
     display: flex;
-    padding: 2rem 3rem;
+    padding: 3rem 5rem;
 
 }
 
@@ -538,10 +538,19 @@ section{
 
 /* CONTACT SECTION */
 
+.contact-home{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+}
+
 .contact-content-con{
     display: flex;
-    padding-top: 3.5rem;
-
+    width: 100%;
+    padding: 0 3rem;
+    justify-content: space-evenly;
 }
 .right-content{
     flex: 2;
@@ -596,9 +605,10 @@ section{
 }
 .footer{
     width: 100%;
-    height: 4rem;
+    padding-bottom: 3rem;
     margin-bottom: 2rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -613,11 +623,21 @@ section{
     cursor: pointer;
     text-decoration: none;
 }
+.footer-socials a{
+    font-size: 5rem;
+    padding-top: 1rem;
+}
+
+.footer-socials a:hover{
+    transform: translateY(5px);
+}
+
+
 /* /MEDIA QUERIES */
 
 @media screen and (max-width: 660px){
     body{
-        background-color: #0c062b;
+        background-color: #0a0530;
     }
     .controlls{
         top: auto;
@@ -752,7 +772,7 @@ section{
     .contact-content-con{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        padding: 0;
+        padding: 2rem;
     }
 
     .cont-tittle h2{
@@ -783,11 +803,16 @@ section{
         }
 
     }  
+
+    .footer-socials a{
+        font-size: 3rem;
+    }
 }
 
 @media screen and (max-width:1020px) {
     body{
-        background-color: #0c062b;
+        background-color: #090422;
+        font-size: 16px !important;
     }
     .controlls{
         top: auto;
