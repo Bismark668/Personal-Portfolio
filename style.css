@@ -12,7 +12,7 @@ body{
     background-color: #040111;
     font-size: 1.1rem;
     color: white;
-    transition: 0.4s ease-in-out;
+    scroll-behavior: smooth;
 }
 
 a{
@@ -87,7 +87,6 @@ section{
 .home{
     
     width: 100%;
-    min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     
@@ -142,17 +141,17 @@ section{
     margin: -3px o;
 }
 
-.home-content h3{
+.home-content h4{
     font-size: 40px;
     font-weight: 700;
 }
 
-.home-content h3:nth-of-type(2){
+.home-content h4:nth-of-type(2){
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.home-content h3 span{
+.home-content h4 span{
     color: rgb(25, 216, 66);
 }
 .home-content p{
@@ -213,7 +212,6 @@ section{
 /* ABOUT SECTION */
 .about-home{
     width: 100%;
-    min-height: 100vh;
     display: grid; 
     padding: 0 5rem;
 }
@@ -300,7 +298,6 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .left-about p{
@@ -638,6 +635,7 @@ section{
 @media screen and (max-width: 660px){
     body{
         background-color: #0a0530;
+        font-size: 16px !important;
     }
     .controlls{
         top: auto;
@@ -656,7 +654,7 @@ section{
         padding-bottom: 5rem;
         
     }
-    .home-content h3 span{
+    .home-content h4 span{
         display: none;
     }
     .home-image{
@@ -831,9 +829,7 @@ section{
         padding-bottom: 5rem;
         
     }
-    .home-content h3 span{
-        display: none;
-    }
+    
     .home-image{
         grid-row: 1;
         padding-bottom: 2rem;

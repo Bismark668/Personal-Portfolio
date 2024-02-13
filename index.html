@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>My Website</title>
 </head>
 
@@ -33,10 +34,10 @@
 
    <section id="home">
        <div class="home">
-            <div class="home-content">
-                <h3>Hello, This is</h3>
+            <div class="home-content" data-aos="zoom-in-left">
+                <h4>Hello, This is</h4>
                 <h1>Bismark Arthur</h1>
-                <h3>And am a <span class="text"></span></h3>
+                <h4>And am a <span class="text"></span></h4>
                 <p>Frontend developer, UI/UX Designer and mobile App developer,
                     <br>With Experience in Website design, Mobile App development and UI/UX designs.
                 </p>
@@ -66,16 +67,16 @@
                 <h2>About <span>me</span></h2>
             </div>
 
-            <div class="main-about">
+            <div class="main-about" data-aos="fade-up-left">
                 <div class="left-about">
-                    <h4>About me</h4><br>
+                    <h4>My Self</h4><br>
                     <p>I am Bismark Arthur, a versatile professional excelling as a software developer, UI/UX designer, and Flutter app developer. My expertise lies in crafting seamless digital experiences and building innovative solutions. <br><br> My passion for creating innovative and user-friendly software solutions has allowed me to excel in my field, while my expertise in UI/UX design ensures that the products I create not only meet technical requirements but also provide an exceptional user experience. By staying up-to-date with the latest industry trends and constantly enhancing my skill set, I am committed to delivering high-quality and cutting-edge applications that captivate audiences and make a lasting impact..</p><br>
                     <a href="" class="main-btn">
                         <span class="btn-text">Downlod CV</span>
                     </a>
                 </div>
 
-                <div class="right-about">
+                <div class="right-about" data-aos="fade-up-right">
                     <h4>My services</h4><br>
                     <div class="about-item">
                         <div class="abt-text">
@@ -111,7 +112,7 @@
                 </div>
             </div>
 
-            <div class="about-stats">
+            <div class="about-stats" data-aos="fade-up-left">
                 <h4>My Skills</h4><br>
                 <div class="skills-bars">
                     <div class="progress-bars">
@@ -179,8 +180,8 @@
                     Here is Some Projects I have done so far...
                 </p>
             </div>
-            <div class="portfolios">
-                <div class="port-items">
+            <div class="portfolios" data-aos="fade-up-right">
+                <div class="port-items"  data-aos="zoom-in-left">
                     <div class="port-image">
                         <img src="images/project1.png" alt="project-img">
                     </div>
@@ -198,7 +199,7 @@
                     </div>
                 </div>
 
-                <div class="port-items">
+                <div class="port-items"  data-aos="zoom-in-left">
                     <div class="port-image">
                         <img src="images/applications-of-computer-programming.webp" alt="project-img">
                     </div>
@@ -216,7 +217,7 @@
                     </div>
                 </div>
 
-                <div class="port-items">
+                <div class="port-items"  data-aos="zoom-in-left">
                     <div class="port-image">
                         <img src="images/applications-of-computer-programming.webp" alt="project-img">
                     </div>
@@ -243,7 +244,7 @@
                 <h2>MY <span>contact</span></h2>
             </div>
             <div class="contact-content-con">
-                <div class="right-content">
+                <div class="right-content"  data-aos="fade-up-left">
                     <h4>Connect with me</h4>
                     <p>
                         Here's is some information about how you can contact me. <br> Am available and ready to work with you.Feel free to contact me anytime and anyday.
@@ -288,7 +289,7 @@
                     </a>
                 </div>
                 
-                <div class="left-content">
+                <div class="left-content"  data-aos="fade-up-right">
                     <form action="" class="action contact-form">
                         <div class="input-control i-2">
                             <input type="text" required placeholder="Enter Your Name">
@@ -310,17 +311,20 @@
             </div> 
         </div>
    </section>
-   <footer class="footer">
-    <h3>Developed By <a href="https://www.linkedin.com/in/arthur-bismark-0a4979272" target="_blank">Bismark Arthur</a></h3>
-    <div class="footer-socials">
+   <footer class="footer"  data-aos="zoom-in-left">
+        <h4>Developed By <a href="https://www.linkedin.com/in/arthur-bismark-0a4979272" target="_blank">Bismark Arthur</a></h4>
+        <div class="footer-socials">
         <a href="https://www.facebook.com/profile.php?id=100081192673658" target="_blank"><i class='bx bxl-facebook-square' style="color: blue;"></i></a>
         <a href="https://www.linkedin.com/in/arthur-bismark-0a4979272" target="_blank"><i class='bx bxl-linkedin-square' style="color: blue;"></i></a>
         <a href="https://github.com/Bismark668" target="_blank"><i class='bx bxl-github' style="color: white;" ></i></a>
         <a href="https://wa.me/message/ZRCPR2DXCQY7F1" target="_blank"><i class='bx bxl-whatsapp' style='color:#0dda12'  ></i></i></a>
-    </div>
+        </div>
    </footer>
    
-
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init({duration:3000,});
+   </script>
     <script src="app.js"></script>
 </body>
 </html>
