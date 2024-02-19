@@ -12,6 +12,7 @@ body{
     background-color: #040111;
     font-size: 1.1rem;
     color: white;
+    text-align: center;
     scroll-behavior: smooth;
 }
 
@@ -632,11 +633,12 @@ section{
 
 /* /MEDIA QUERIES */
 
-@media screen and (max-width: 660px){
+@media  (max-width: 540px){
     body{
         background-color: #0a0530;
-        font-size: 16px !important;
     }
+    
+   
     .controlls{
         top: auto;
         bottom: -2%;
@@ -647,7 +649,7 @@ section{
         width: 100%;
     }
     section{
-        padding: 2rem 2rem;
+        padding: .5rem !important;
     }
     .home{
         grid-template-columns: repeat(1,1fr);
@@ -686,7 +688,7 @@ section{
     }
 
    .about-home{
-    padding: 1rem 0;
+    padding: 0;
    }
 
     .about-tittle h2{
@@ -807,10 +809,9 @@ section{
     }
 }
 
-@media screen and (max-width:1020px) {
+@media (max-width:1020px) {
     body{
         background-color: #090422;
-        font-size: 16px !important;
     }
     .controlls{
         top: auto;
@@ -824,6 +825,10 @@ section{
     section{
         padding: 2rem 2rem;
     }
+
+    /* P{
+        font: 2em sans-serif !important;
+    } */
     .home{
         grid-template-columns: repeat(1,1fr);
         padding-bottom: 5rem;
