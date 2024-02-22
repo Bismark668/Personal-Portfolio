@@ -622,12 +622,12 @@ section{
     text-decoration: none;
 }
 .footer-socials a{
-    font-size: 5rem;
+    font-size: 3rem;
     padding-top: 1rem;
 }
 
 .footer-socials a:hover{
-    transform: translateY(5px);
+    transform: translateY(8px);
 }
 
 
