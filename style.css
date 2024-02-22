@@ -147,6 +147,10 @@ section{
     font-weight: 700;
 }
 
+.home-content a{
+    align-self: center;
+}
+
 .home-content h4:nth-of-type(2){
     margin-top: 10px;
     margin-bottom: 20px;
@@ -211,6 +215,7 @@ section{
 }
 
 /* ABOUT SECTION */
+
 .about-home{
     width: 100%;
     display: grid; 
@@ -299,15 +304,16 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2rem 0;
+
 }
 
 .left-about p{
     line-height: 2rem;
-    padding: 0 1rem;
     font-size: 1.5rem;
     font-family: 'Playfair Display', serif;
     font-weight: 500;
-    text-wrap: pretty;
+    text-align: left;
     color: white;
 }
 
@@ -316,6 +322,9 @@ section{
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
 
+}
+.left-about a{
+    align-self: center;
 }
 
 .right-about h4{
@@ -439,7 +448,7 @@ section{
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 0 4rem;
+    padding: 0 5rem;
 }
 
 .Port-tittle{
