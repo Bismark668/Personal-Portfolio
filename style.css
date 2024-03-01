@@ -584,7 +584,17 @@ section{
 
 .left-content{
     flex: 3;
+    padding: 10px;
     margin-left: 3rem;
+    border: 1px dotted red;
+    h2{
+        font-weight: 700;
+        color: red;
+    }
+    .submit-btn{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .input-control{
