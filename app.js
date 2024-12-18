@@ -21,11 +21,11 @@ pageTransitions();
 var typed = new Typed('.text',{
   strings: ["Frontend developer",
             "UI/UX Designer",
-            "Mobile App Developer"
+            "Digital Marketer"
           ],
   typeSpeed:100,
-  backspeed:200,
-  backDelay:800,
+  backspeed:400,
+  backDelay:900,
   loop:true
 });
 

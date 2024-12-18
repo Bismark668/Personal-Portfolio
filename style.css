@@ -641,6 +641,7 @@ section{
     text-decoration: none;
 }
 .footer-socials a{
+    margin-left: 1rem;
     font-size: 3rem;
     padding-top: 1rem;
 }
