@@ -20,7 +20,7 @@ pageTransitions();
 
 var typed = new Typed('.text',{
   strings: ["Frontend developer",
-            "UI/UX Designer",
+            "SEO Content Writer",
             "Digital Marketer"
           ],
   typeSpeed:100,
